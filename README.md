@@ -6,7 +6,7 @@ Portable Markdown skills from ORIGO Studio for working with AI assistants.
 
 - [ORIGO SEO Brief](skills/origo-seo-brief/SKILL.md) — turn a real business idea into a focused SEO brief.
 - [ORIGO Responsive QA](skills/origo-responsive-qa/SKILL.md) — review a website across mobile, tablet, and desktop.
-- [ORIGO Website Launch](skills/origo-launch-checklist/SKILL.md) — prepare a website for a controlled launch.
+- [ORIGO Website Launch](skills/origo-website-launch/SKILL.md) — prepare a website for a controlled launch.
 
 ## How to use
 

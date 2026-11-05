@@ -1,5 +1,5 @@
 ---
-name: origo-launch-checklist
+name: origo-website-launch
 description: Prepare a website for a controlled launch by checking content, SEO, forms, security, responsive behavior, and rollback readiness without deploying automatically.
 license: MIT
 ---
