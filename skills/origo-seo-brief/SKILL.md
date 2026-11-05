@@ -1,50 +1,50 @@
 ---
 name: origo-seo-brief
-description: Create a practical SEO content brief for a real business, service, or product without inventing search data or publishing content automatically.
+description: Crea un brief de contenido SEO práctico para un negocio, servicio o producto real, sin inventar datos de búsqueda ni publicar contenido automáticamente.
 license: MIT
 ---
 
 # ORIGO SEO Brief
 
-Use this skill when someone needs to turn a business idea, service, or customer question into a focused SEO content brief.
+Usa esta skill cuando alguien necesite convertir una idea de negocio, un servicio o una pregunta de cliente en un brief de contenido SEO enfocado.
 
-## What it solves
+## Qué soluciona
 
-It prevents generic articles by connecting the topic to a real audience, a search intent, a useful outcome, and a natural next step.
+Evita artículos genéricos conectando el tema con una audiencia real, una intención de búsqueda, un resultado útil y un siguiente paso natural.
 
-## Ask first
+## Pregunta primero
 
-- What does the business offer?
-- Who is the intended reader or customer?
-- Which location or market matters?
-- What action should the reader take after consuming the content?
-- Are there existing pages, services, or competitors to consider?
+- ¿Qué ofrece el negocio?
+- ¿Quién es el lector o cliente al que se dirige?
+- ¿Qué localidad o mercado importa?
+- ¿Qué acción debería tomar el lector después de leer el contenido?
+- ¿Hay páginas, servicios o competidores existentes que haya que tener en cuenta?
 
-If information is missing, mark it as an assumption. Do not invent search volume, rankings, competitor facts, or customer evidence.
+Si falta información, márcala como supuesto. No inventes volumen de búsqueda, posiciones, datos de la competencia ni evidencia de clientes.
 
-## Output
+## Entrega
 
-Return a brief with:
+Devuelve un brief con:
 
-1. Working title and three alternatives.
-2. Primary question and search intent.
-3. Intended audience and stage of awareness.
-4. Key points the content must answer.
-5. Suggested H1/H2 structure.
-6. Internal links to create or review.
-7. Meta title, meta description, and URL slug.
-8. FAQ ideas, clearly marked for human review.
-9. One useful call to action.
-10. Assumptions, evidence gaps, and review checklist.
+1. Título de trabajo y tres alternativas.
+2. Pregunta principal e intención de búsqueda.
+3. Audiencia a la que se dirige y su grado de conocimiento del problema.
+4. Puntos clave que el contenido debe responder.
+5. Estructura propuesta de H1 y H2.
+6. Enlaces internos que crear o revisar.
+7. Meta title, meta description y slug de la URL.
+8. Ideas de preguntas frecuentes, marcadas claramente para revisión humana.
+9. Una llamada a la acción útil.
+10. Supuestos, lagunas de evidencia y lista de comprobación para la revisión.
 
-## Editorial rules
+## Reglas editoriales
 
-- Prefer clarity over keyword repetition.
-- Use the business's real vocabulary and location.
-- Separate verified facts from suggestions.
-- Do not promise rankings or traffic.
-- Do not publish automatically.
+- Prioriza la claridad sobre la repetición de palabras clave.
+- Usa el vocabulario y la localidad reales del negocio.
+- Separa los hechos verificados de las sugerencias.
+- No prometas posiciones en buscadores ni tráfico.
+- No publiques automáticamente.
 
-## Example request
+## Ejemplo de petición
 
-> Create an SEO brief for a web studio that helps small businesses in Spain redesign slow websites. The goal is to generate qualified project enquiries.
+> Crea un brief SEO para un estudio web que ayuda a pequeños negocios en España a rediseñar webs lentas. El objetivo es generar consultas de proyecto cualificadas.
