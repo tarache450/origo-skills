@@ -1,22 +1,22 @@
 # ORIGO Open Skills
 
-Portable Markdown skills from ORIGO Studio for working with AI assistants.
+Skills Markdown portables de ORIGO Studio para trabajar con asistentes de inteligencia artificial.
 
-## Available skills
+## Skills disponibles
 
-- [ORIGO SEO Brief](skills/origo-seo-brief/SKILL.md) — turn a real business idea into a focused SEO brief.
-- [ORIGO Responsive QA](skills/origo-responsive-qa/SKILL.md) — review a website across mobile, tablet, and desktop.
-- [ORIGO Website Launch](skills/origo-website-launch/SKILL.md) — prepare a website for a controlled launch.
+- [ORIGO SEO Brief](skills/origo-seo-brief/SKILL.md) — convierte una idea de negocio real en un brief SEO enfocado.
+- [ORIGO Responsive QA](skills/origo-responsive-qa/SKILL.md) — revisa una web en móvil, tablet y escritorio.
+- [ORIGO Website Launch](skills/origo-website-launch/SKILL.md) — prepara una web para un lanzamiento controlado.
 
-## How to use
+## Cómo usarlas
 
-1. Download the `SKILL.md` you need.
-2. Add it to your assistant's instructions or knowledge folder.
-3. Provide the real context of your project before asking for a result.
-4. Review every result before publishing, sending, or executing an external action.
+1. Descarga el `SKILL.md` que necesites.
+2. Añádelo a las instrucciones o a la carpeta de conocimiento de tu asistente.
+3. Dale el contexto real de tu proyecto antes de pedirle un resultado.
+4. Revisa cada resultado antes de publicar, enviar o ejecutar una acción externa.
 
-These are guidance documents. They contain no credentials and do not authorize external actions by themselves.
+Son documentos de guía. No contienen credenciales y no autorizan por sí mismos ninguna acción externa.
 
-## License
+## Licencia
 
 MIT. Copyright ORIGO Studio.

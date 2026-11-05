@@ -1,43 +1,43 @@
 ---
 name: origo-responsive-qa
-description: Review a website experience across mobile, tablet, and desktop, reporting observable responsive, accessibility, and perceived-performance issues without claiming checks that were not performed.
+description: Revisa la experiencia de una web en móvil, tablet y escritorio, informando de los problemas observables de adaptación, accesibilidad y rendimiento percibido, sin dar por hecha ninguna comprobación que no se haya realizado.
 license: MIT
 ---
 
 # ORIGO Responsive QA
 
-Use this skill before launch or after a visual change when a website must work cleanly across devices.
+Usa esta skill antes de un lanzamiento o después de un cambio visual, cuando una web tenga que funcionar con limpieza en todos los dispositivos.
 
-## What it solves
+## Qué soluciona
 
-It turns vague feedback such as “it feels broken on mobile” into a prioritized report with reproducible viewport-specific findings.
+Convierte comentarios vagos del tipo «se ve roto en el móvil» en un informe priorizado con hallazgos reproducibles y asociados a cada tamaño de pantalla.
 
-## Evidence rule
+## Regla de evidencia
 
-Only report what you can observe from the supplied URL, screenshots, code, or test output. If browser automation, network inspection, or a real device was not available, label that check as unverified.
+Informa solo de lo que puedas observar en la URL, las capturas, el código o los resultados de pruebas que te hayan dado. Si no has tenido acceso a automatización del navegador, inspección de red o un dispositivo real, marca esa comprobación como no verificada.
 
-## Review matrix
+## Matriz de revisión
 
-Check at least:
+Comprueba al menos:
 
-- Compact mobile: 320–390 px wide.
-- Large mobile or tablet: 768 px wide.
-- Desktop: 1280–1440 px wide.
-- Landscape when the layout has horizontal interactions.
+- Móvil compacto: 320–390 px de ancho.
+- Móvil grande o tablet: 768 px de ancho.
+- Escritorio: 1280–1440 px de ancho.
+- Horizontal, cuando el diseño tenga interacciones laterales.
 
-## Check
+## Qué revisar
 
-1. Horizontal overflow and clipped content.
-2. Header, navigation, dialogs, and sticky elements.
-3. Tap targets, focus states, labels, and keyboard access.
-4. Text scale, line length, contrast, and theme variants.
-5. Images, canvas, video, and animation fallbacks.
-6. Loading order, large requests, and visible layout shifts.
-7. Forms, error states, links, and external navigation.
-8. Reduced-motion and low-power behavior.
+1. Desbordamiento horizontal y contenido cortado.
+2. Cabecera, navegación, ventanas emergentes y elementos fijos.
+3. Zonas táctiles, estados de foco, etiquetas y acceso por teclado.
+4. Tamaño del texto, longitud de línea, contraste y variantes de tema.
+5. Imágenes, lienzo, vídeo y alternativas de animación.
+6. Orden de carga, peticiones pesadas y saltos visibles del diseño.
+7. Formularios, estados de error, enlaces y navegación externa.
+8. Comportamiento con movimiento reducido y en modo de bajo consumo.
 
-## Output
+## Entrega
 
-Return a table with viewport, severity, evidence, affected component, recommended fix, and verification status. Prioritize blockers that prevent reading, navigation, contact, or checkout. Finish with a short retest checklist.
+Devuelve una tabla con tamaño de pantalla, gravedad, evidencia, componente afectado, corrección recomendada y estado de verificación. Prioriza los bloqueos que impiden leer, navegar, contactar o comprar. Termina con una lista corta de comprobaciones para volver a probar.
 
-Never claim “responsive everywhere” from one viewport or from a build that was not run.
+Nunca afirmes que «se adapta en todas partes» a partir de un solo tamaño de pantalla ni de una versión que no se haya ejecutado.

@@ -1,44 +1,44 @@
 ---
 name: origo-website-launch
-description: Prepare a website for a controlled launch by checking content, SEO, forms, security, responsive behavior, and rollback readiness without deploying automatically.
+description: Prepara una web para un lanzamiento controlado revisando contenido, SEO, formularios, seguridad, comportamiento en cada dispositivo y capacidad de volver atrás, sin desplegar automáticamente.
 license: MIT
 ---
 
 # ORIGO Website Launch
 
-Use this skill when a website is close to publication and the team needs a calm, evidence-based final pass.
+Usa esta skill cuando una web esté cerca de publicarse y el equipo necesite una revisión final tranquila y basada en evidencia.
 
-## What it solves
+## Qué soluciona
 
-It reduces last-minute launch errors in metadata, links, forms, privacy pages, assets, and deployment configuration.
+Reduce los errores de última hora en metadatos, enlaces, formularios, páginas legales, archivos y configuración del despliegue.
 
-## Before checking
+## Antes de revisar
 
-Identify the target environment, the intended domain, the build command, the deployment owner, and the approved scope. Never request, print, or store credentials in the report.
+Identifica el entorno de destino, el dominio previsto, el comando de compilación, quién es responsable del despliegue y el alcance aprobado. Nunca pidas, muestres ni guardes credenciales en el informe.
 
-## Checklist
+## Lista de comprobación
 
-### Content and SEO
+### Contenido y SEO
 
-- Title, description, canonical, Open Graph, favicon, headings, alt text, sitemap, and robots.
-- Main CTA, contact details, prices, case studies, and legal copy match the approved source.
+- Título, descripción, canonical, Open Graph, favicon, encabezados, textos alternativos, sitemap y robots.
+- La llamada a la acción principal, los datos de contacto, los precios, los casos de éxito y los textos legales coinciden con la fuente aprobada.
 
-### Product behavior
+### Comportamiento del producto
 
-- Navigation, forms, validation, success/error states, external links, analytics consent, and 404 behavior.
-- Test compact mobile, tablet, desktop, theme variants, keyboard focus, and reduced motion.
+- Navegación, formularios, validaciones, estados de éxito y error, enlaces externos, consentimiento de analítica y comportamiento del error 404.
+- Prueba en móvil compacto, tablet y escritorio, en las variantes de tema, con foco por teclado y con movimiento reducido.
 
-### Security and performance
+### Seguridad y rendimiento
 
-- No secrets in source, logs, bundles, or public files.
-- Validate external URLs and upload boundaries.
-- Confirm lazy loading, image dimensions, caching, and a realistic build artifact.
+- Ningún secreto en el código, los registros, los archivos compilados ni los archivos públicos.
+- Valida las URLs externas y los límites de subida de archivos.
+- Confirma la carga diferida, las dimensiones de las imágenes, el almacenamiento en caché y que el resultado de la compilación es realista.
 
-### Release control
+### Control de la publicación
 
-- Record commit, build result, smoke-test URLs, owner, and rollback path.
-- Do not deploy, merge, send messages, or alter production without explicit authorization.
+- Registra la versión, el resultado de la compilación, las URLs de prueba rápida, el responsable y la vía para volver atrás.
+- No despliegues, no fusiones cambios, no envíes mensajes ni alteres producción sin autorización explícita.
 
-## Output
+## Entrega
 
-Return `READY`, `READY WITH FOLLOW-UPS`, or `BLOCKED`, followed by evidence for every item, unresolved risks, and the smallest next action. A green build alone is not launch approval.
+Devuelve `LISTO`, `LISTO CON PENDIENTES` o `BLOQUEADO`, seguido de la evidencia de cada punto, los riesgos sin resolver y la siguiente acción más pequeña. Que la compilación salga sin errores no es, por sí solo, una aprobación para lanzar.
