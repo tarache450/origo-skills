@@ -7,6 +7,7 @@ Skills Markdown portables de ORIGO Studio para trabajar con asistentes de inteli
 - [ORIGO SEO Brief](skills/origo-seo-brief/SKILL.md) — convierte una idea de negocio real en un brief SEO enfocado.
 - [ORIGO Responsive QA](skills/origo-responsive-qa/SKILL.md) — revisa una web en móvil, tablet y escritorio.
 - [ORIGO Website Launch](skills/origo-website-launch/SKILL.md) — prepara una web para un lanzamiento controlado.
+- [ORIGO Digital Sales](skills/origo-digital-sales/SKILL.md) — valida y vende productos digitales con ofertas y mensajes basados en evidencia.
 
 ## Cómo usarlas
 
